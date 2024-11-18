@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        button{
+            display: none;
+        }
+
+        img{
+            width: 200px;
+            height: 250px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="ressources/ciseaux.png" alt="ciseaux" id="ciseaux">
+        <img src="ressources/feuille.png" alt="feuille" id="feuille">
+        <img src="ressources/pierre.png" alt="pierre" id="pierre">
+    </div>
+    <div id="choices"></div>
+    <div id="result"></div>
+    <div id="score"></div>
+    <div id="end"></div>
+    <button id="reset">reset</button>
+    <script src="script.js"></script>
+</body>
+</html>
